@@ -1,3 +1,12 @@
 body{
-  background-color: #aaa;
+
+}
+
+pre{
+  display: inline-block;
+  padding-right: 3em;
+  background-color: #eee;
+  border-radius: 8px;
+  width: auto;
+  margin-bottom: 1em;
 }
