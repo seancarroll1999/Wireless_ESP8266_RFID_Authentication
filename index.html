@@ -10,14 +10,61 @@ https://raw.githack.com/
 -->
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+  <script>
+  var op = false;
+  var blue = 0;
+  function openv(){
+
+    if(op){
+      document.getElementById("content").style.display = "none";
+      op = false;
+    }else{
+      document.getElementById("content").style.display = "block";
+      op = true;
+    }
+  }
+
+  function changeC(){
+
+    if(blue == 0){
+      document.getElementById("wrapper").style.background = "#bd3921";
+      document.getElementsByClassName('header')[0].style.background = "#ee6969";
+      document.getElementById("intro").style.background = "#ee6969";
+      document.getElementsByClassName('box')[0].style.background = "#ee6969";
+      blue++;
+    }
+    else if(blue == 1){
+      document.getElementById("wrapper").style.background = "#047190";
+      document.getElementsByClassName('header')[0].style.background = "#4daad5";
+      document.getElementById("intro").style.background = "#4daad5";
+      document.getElementsByClassName('box')[0].style.background = "#4daad5";
+      blue++;
+    }
+    else if(blue == 2){
+      document.getElementById("wrapper").style.background = "#f6c260";
+      document.getElementsByClassName('header')[0].style.background = "#f8f0de";
+      document.getElementById("intro").style.background = "#f8f0de";
+      document.getElementsByClassName('box')[0].style.background = "#f8f0de";
+      blue = 0;
+    }
+
+
+
+  }
+
+  </script>
 </head>
 <body>
 
 
 <div id="wrapper">
-  <div class="header">
+  <div class="header" onclick="openv()">
     <h1>Wireless_ESP8266_RFID_Authentication</h1>
   </div>
+
+  <div id="content">
+
 
   <div id="intro">
     <h3>Wireless ESP8266 RDID based authentication system. Included in this Project:</h3>
@@ -32,7 +79,7 @@ https://raw.githack.com/
     <h3>RFID Authentication</h3>
     <div class="snip">
     <pre>
-      <code class="prettyprint">
+      <code class="prettyprint" onclick="changeC()">
         public static void main(String[] args){
           String s = "Hello World";
         }
@@ -40,6 +87,7 @@ https://raw.githack.com/
     </pre>
   </div>
   </div>
+    </div>
 </div>
 
 

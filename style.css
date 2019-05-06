@@ -16,7 +16,13 @@ body{
   padding: 1em;
   border-radius: 13px;
 
+
 }
+#content{
+  display: none;
+}
+
+
 
 .header{
   background-color: #4daad5;
