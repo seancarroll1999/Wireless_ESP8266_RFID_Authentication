@@ -18,3 +18,10 @@
 
 #### Java Project Code
 - *Download link for java eclipse project*
+
+
+```Java
+public static void main(String[] args){
+  String s = "Hello World!";
+}
+```
