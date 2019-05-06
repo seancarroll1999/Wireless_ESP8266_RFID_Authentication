@@ -20,7 +20,7 @@
 - *Download link for java eclipse project*
 
 
-```Java
+```C
 public static void main(String[] args){
   String s = "Hello World!";
 }
