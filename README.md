@@ -19,9 +19,35 @@
 #### Java Project Code
 - *Download link for java eclipse project*
 
-
 ```C
 public static void main(String[] args){
   String s = "Hello World!";
 }
 ```
+<div id="wrapper">
+  <div class="header">
+    <h1>Wireless_ESP8266_RFID_Authentication</h1>
+  </div>
+
+  <div id="intro">
+    <h3>Wireless ESP8266 RDID based authentication system. Included in this Project:</h3>
+    <ul>
+      <li>ESP8266 Arduino Schematics</li>
+      <li>Arduino IDE Programming</li>
+      <li>Java coding project using RFID scanner as authentication</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h3>RFID Authentication</h3>
+    <div class="snip">
+    <pre>
+      <code class="prettyprint">
+        public static void main(String[] args){
+          String s = "Hello World";
+        }
+      </code>
+    </pre>
+  </div>
+  </div>
+</div>
